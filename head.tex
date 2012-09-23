@@ -1,7 +1,7 @@
 \documentclass[\MODE]{beamer}
 \usepackage{listings}
 \usepackage{pstricks, pst-node}
-
+\usepackage{xifthen}
 
 \mode<presentation>{
 	\definecolor{accentcolor}{rgb}{0.89, 0.43, 0.20}
@@ -40,5 +40,69 @@
 
 \newcommand{\debugpsgrid}{}
 %\newcommand{\debugpsgrid}{\psgrid}
+
+\newrgbcolor{gitdefault}{0.89 0.43 0.20}
+\newrgbcolor{gitshaded}{0.6 0.6 0.6}
+
+%\newcommand{\gitcommit}[4][default]{%
+%	\IfStrEq{#1}{default}{%
+%		\cnode[fillstyle=solid, fillcolor=gitdefault](#2, #3){0.3}{#4}%
+%		\rput(#2, #3){#4}%
+%	}{%
+%		\IfStrEq{#1}{shaded}{%
+%			\cnode[linecolor=gitshaded](#2, #3){0.3}{#4}%
+%			\rput(#2, #3){{\gitshaded #4}}%
+%		}{%
+%		}%
+%	}
+%}
+
+% [display-name]{x}{y}{name}
+\newcommand{\gitcommit}[4][]{%
+	\ifthenelse{\isempty{#1}}{%
+		\cnode[fillstyle=solid, fillcolor=gitdefault](#2, #3){0.3}{#4}%
+		\rput(#2, #3){#4}
+	}{%
+		\cnode[fillstyle=solid, fillcolor=gitdefault](#2, #3){0.3}{#4}%
+		\rput(#2, #3){#1}
+	}
+}
+
+% [display-name]{x}{y}{name}
+\newcommand{\gitcommitshaded}[4][]{%
+	\ifthenelse{\isempty{#1}}{%
+		\cnode[linecolor=gitshaded](#2, #3){0.3}{#4}%
+		\rput(#2, #3){{\gitshaded #4}}
+	}{%
+		\cnode[linecolor=gitshaded](#2, #3){0.3}{#4}%
+		\rput(#2, #3){{\gitshaded #1}}
+	}
+}
+
+\newcommand{\gitparent}[2]{%
+	\ncline{->}{#1}{#2}
+}
+
+\newcommand{\gitparentshaded}[2]{%
+	\ncline[linecolor=gitshaded]{->}{#1}{#2}
+}
+
+\newcommand{\gitbranch}[2]{%
+	\ncarc[arcangle=16]{->}{#1}{#2}
+}
+
+\newcommand{\gitbranchshaded}[2]{%
+	\ncarc[arcangle=16, linecolor=gitshaded]{->}{#1}{#2}
+}
+
+\newcommand{\gittag}[4]{%
+	\rput(#1, #2){\rnode{tag#3}{\psframebox{#3}}}%
+	\ncline[nodesep=0.4mm]{tag#3}{#4}
+}
+
+\newcommand{\gittagshaded}[4]{%
+	\rput(#1, #2){\rnode{tagshaded#3}{\psframebox[linecolor=gitshaded]{{\gitshaded #3}}}}%
+	\ncline[nodesep=0.4mm, linecolor=gitshaded]{tagshaded#3}{#4}
+}
 
 \begin{document}

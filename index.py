@@ -123,6 +123,7 @@ dev_files = [
 	"dev-pstricks.tpp",
 	"dev-listings.tpp",
 	"dev-bash.tpp",
+	"dev-git.tpp",
 	"dev-torture.tpp",
 	"foot.tex",
 ]
