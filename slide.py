@@ -70,9 +70,8 @@ def parse_ite2(context, token):
 	context.out.append("\\item %s" % get_data(token))
 
 def parse_part(context, token):
-	#context.out.append("\\section{%s}" % get_data(token))
 	context.out.append("\\begin{center}")
-	context.out.append("\\LARGE\\textcolor{accentcolor}{%s}" % get_data(token))
+	context.out.append("\\Huge\\textcolor{black}{%s}" % get_data(token))
 	context.out.append("\\end{center}")
 
 def parse_code(context, token):
@@ -225,7 +224,7 @@ def massage(tokens):
 		if t[0] == TOKEN_PART:
 			part = True
 	if part:
-		tokens.insert(0, (TOKEN_TEXT, parse_text, "{\\usebackgroundtemplate{\includegraphics[totalwidth=\\paperwidth, totalheight=\\paperheight, trim=95 0 0 0]{tux}}"))
+		tokens.insert(0, (TOKEN_TEXT, parse_text, "{\\usebackgroundtemplate{\includegraphics[totalheight=0.8\\paperheight, trim=20 0 0 2, clip=true]{background-part}}"))
 		tokens.append((TOKEN_TEXT, parse_text, "}"))
 
 	return tokens

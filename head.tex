@@ -18,7 +18,6 @@
 \setbeamertemplate{navigation symbols}{}
 \newcommand{\code}[1]{\colorbox{codecolor}{\lstinline{#1}}}
 
-
 \lstset{
 	language=,
 	columns=fullflexible,
@@ -43,19 +42,6 @@
 
 \newrgbcolor{gitdefault}{0.89 0.43 0.20}
 \newrgbcolor{gitshaded}{0.6 0.6 0.6}
-
-%\newcommand{\gitcommit}[4][default]{%
-%	\IfStrEq{#1}{default}{%
-%		\cnode[fillstyle=solid, fillcolor=gitdefault](#2, #3){0.3}{#4}%
-%		\rput(#2, #3){#4}%
-%	}{%
-%		\IfStrEq{#1}{shaded}{%
-%			\cnode[linecolor=gitshaded](#2, #3){0.3}{#4}%
-%			\rput(#2, #3){{\gitshaded #4}}%
-%		}{%
-%		}%
-%	}
-%}
 
 % [display-name]{x}{y}{name}
 \newcommand{\gitcommit}[4][]{%
