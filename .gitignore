@@ -1,0 +1,11 @@
+*.pyc
+a.aux
+a.dvi
+a.log
+a.nav
+a.out
+a.pdf
+a.snm
+a.tex
+a.toc
+a.vrb
