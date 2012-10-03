@@ -37,7 +37,6 @@ part1 = [
 	# THE BIG PICTURE
 	# [working directory] ---- [index] ---- [.git version]
 	# "animated" image: git add move to index, git commit move to .git
-]
 
 # -- BRANCHES AND MERGES 30-45 min
 #
@@ -123,8 +122,9 @@ part1 = [
 # (plain rebase, not interactive)
 # run example
 #
-# -- NEW BLOCK (Kongstad from here and below) = 30-45 min
+# -- FLUID WORKFLOW (Kongstad from here and below) = 30-45 min
 #
+	"part-fluid-workflow.tpp",
 # CONFIG
 # local: .git/config, global: ~/.gitconfig
 # name
@@ -149,6 +149,8 @@ part1 = [
 #
 # REFLOG
 # logs visited refs
+# save for when explaining .git/objects,
+# to show how old copies still exists until git-gc?
 #
 # FIND COMMITS
 # git log --author=... --no-merges (other filters)
@@ -232,6 +234,7 @@ part1 = [
 #
 # SECURITY/ATOMICITY
 # git tag vs git tag -a (save for later)
+]
 
 files = ["head.tex", "cover.tpp"] + part1 + ["foot.tex"]
 
