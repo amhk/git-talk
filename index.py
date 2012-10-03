@@ -125,11 +125,8 @@ part1 = [
 # -- FLUID WORKFLOW (Kongstad from here and below) = 30-45 min
 #
 	"part-fluid-workflow.tpp",
-# CONFIG
-# local: .git/config, global: ~/.gitconfig
-# name
-# email
-# alias
+	"git-config.tpp",
+	"alias.tpp", # [alias] in git-config
 #
 # IGNORE
 # ~/.gitignore, .gitignore and .git/info/exclude
