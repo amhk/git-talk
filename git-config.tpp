@@ -1,9 +1,8 @@
-titl git config
+titl git-config(1)
 
-text
-	code git config [--global] key value
+syno git config [--global] key value
 
-text \bigskip\\Configure git options
+text Configure git options
 
 item user name, email, \ldots
 item which colors to use, what tools to use

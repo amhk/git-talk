@@ -126,7 +126,7 @@ part1 = [
 #
 	"part-fluid-workflow.tpp",
 	"git-config.tpp",
-	"alias.tpp", # [alias] in git-config
+	"git-config-alias.tpp", # [alias] in git-config
 #
 # IGNORE
 # ~/.gitignore, .gitignore and .git/info/exclude

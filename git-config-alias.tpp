@@ -1,4 +1,4 @@
-titl git config --- alias
+titl git-config(1) --- alias
 
 text Expand to other git command:
 
