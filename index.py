@@ -128,12 +128,7 @@ part1 = [
 	"git-config.tpp",
 	"git-config-alias.tpp", # [alias] in git-config
 	"gitignore.tpp",
-#
-# HOOK
-# .git/hooks
-# pre-determined names
-# eg check whitespace in pre-commit
-# dev branches: git commit --no-verify
+	"githooks.tpp",
 #
 # NICE NAMES
 # explain automatic names eg HEAD, ranges foo..bar, refs/..., BAR~5
