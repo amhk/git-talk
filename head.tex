@@ -4,13 +4,15 @@
 \usepackage{xifthen}
 
 \mode<presentation>{
-	\definecolor{accentcolor}{rgb}{0.89, 0.43, 0.20}
+	\definecolor{accentcolor}{rgb}{0.94, 0.31, 0.22}
 	\definecolor{codecolor}{rgb}{0.95, 0.95, 0.95}
+	\setbeamercolor{synopsiscolor}{fg=accentcolor, bg=codecolor}
 }
 
 \mode<handout>{
 	\definecolor{accentcolor}{rgb}{0, 0, 0}
 	\definecolor{codecolor}{rgb}{1, 1, 1}
+	\setbeamercolor{synopsiscolor}{fg=black, bg=white}
 }
 
 \setbeamercolor{item}{fg=accentcolor}

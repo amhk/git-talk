@@ -1,5 +1,7 @@
 titl dev-git
 
+syno This is the synopsis command.
+
 text PSTricks for drawing git trees.
 
 text \begin{pspicture}(8, 5)\psgrid

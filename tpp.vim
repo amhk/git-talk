@@ -6,6 +6,7 @@ syn match basicLanguageKeywords "^[ \t]*ite2[ \t]"
 syn match basicLanguageKeywords "^[ \t]*text[ \t]"
 syn match basicLanguageKeywords "^[ \t]*part[ \t]"
 syn match basicLanguageKeywords "^[ \t]*bash[ \t]"
+syn match basicLanguageKeywords "^[ \t]*syno[ \t]"
 hi def link basicLanguageKeywords Statement
 
 "syn region slidesCode start="code" end="$"
@@ -14,6 +15,7 @@ hi def link basicLanguageKeywords Statement
 syn region slidesCode matchgroup=basicLanguageKeywords start="^[ \t]*code[ \t]" end="$"
 syn region slidesCode matchgroup=basicLanguageKeywords start="^[ \t]*titl[ \t]" end="$"
 syn region slidesCode matchgroup=basicLanguageKeywords start="^[ \t]*bash[ \t]" end="$"
+syn region slidesCode matchgroup=basicLanguageKeywords start="^[ \t]*syno[ \t]" end="$"
 hi def link slidesCode Constant
 
 syn match slidesColumn "^[ \t]*col[ \t]*"

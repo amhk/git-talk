@@ -19,6 +19,7 @@ TOKEN_BCOL = 14 # begin columns
 TOKEN_ECOL = 15 # end columns
 TOKEN_BASH = 16
 TOKEN_PART = 17
+TOKEN_SYNO = 18
 
 LEFT_COLUMN_PERCENTAGE = 0.6
 
@@ -79,6 +80,9 @@ def parse_code(context, token):
 		raise Exception("code not top-level element")
 	context.out.append("\\code{%s}" % get_data(token))
 
+def parse_syno(context, token):
+	context.out.append("\\begin{beamercolorbox}[rounded=true, center]{synopsiscolor}\\code{%s}\end{beamercolorbox}\\bigskip" % get_data(token))
+
 def parse_grap(context, token):
 	raise Exception("grap not implemented")
 
@@ -103,6 +107,7 @@ patterns.append((TOKEN_ITEM, parse_item, re.compile("^\s*item\s*(.*)\s*$")))
 patterns.append((TOKEN_ITE2, parse_ite2, re.compile("^\s*ite2\s*(.*)\s*$")))
 patterns.append((TOKEN_PART, parse_part, re.compile("^\s*part\s*(.*)\s*$")))
 patterns.append((TOKEN_CODE, parse_code, re.compile("^\s*code\s*(.*)\s*$")))
+patterns.append((TOKEN_SYNO, parse_syno, re.compile("^\s*syno\s*(.*)\s*$")))
 patterns.append((TOKEN_GRAP, parse_grap, re.compile("^\s*grap\s*(.*)\s*$")))
 patterns.append((TOKEN_COL_, parse_col_, re.compile("^\s*col\s*(.*)\s*$")))
 #patterns.append((TOKEN_ERR_, None, re.compile("(.*)")))
