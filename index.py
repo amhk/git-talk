@@ -129,9 +129,8 @@ part1 = [
 	"git-config-alias.tpp", # [alias] in git-config
 	"gitignore.tpp",
 	"githooks.tpp",
-#
-# NICE NAMES
-# explain automatic names eg HEAD, ranges foo..bar, refs/..., BAR~5
+	"gitrevisions.tpp",
+	"gitrevisions-ranges.tpp",
 #
 # TAG
 # git tag
