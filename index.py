@@ -7,6 +7,7 @@ part1 = [
 	# will re-iterate and explain same concepts using
 	# different angles over and over again
 
+	"distributed.tpp",
 	# DISTRIBUTED
 	# local copy -> free to mess around locally
 
