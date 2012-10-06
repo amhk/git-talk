@@ -1,3 +1,4 @@
 titl Introduction
 
-text foo
+item Get enough information to tackle the daily work
+item Re-iterate and explain concepts
