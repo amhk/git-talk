@@ -13,6 +13,7 @@ part1 = [
 
 	# INIT/CLONE
 	"git-init.tpp",
+	"git-clone.tpp",
 	# git init && ls -d .git
 	# everything stored in top-level .git directory
 	# git clone <url> <dir>
