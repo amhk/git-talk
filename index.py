@@ -12,6 +12,7 @@ part1 = [
 	# local copy -> free to mess around locally
 
 	# INIT/CLONE
+	"git-init.tpp",
 	# git init && ls -d .git
 	# everything stored in top-level .git directory
 	# git clone <url> <dir>
