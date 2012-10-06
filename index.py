@@ -131,10 +131,7 @@ part1 = [
 	"githooks.tpp",
 	"gitrevisions.tpp",
 	"gitrevisions-ranges.tpp",
-#
-# TAG
-# git tag
-# same as branch, but doesn't move automatically
+	"git-tag.tpp",
 #
 # REFLOG
 # logs visited refs
