@@ -141,6 +141,7 @@ part1 = [
 #
 # -- REBASE AND FRIENDS = 30 min
 #
+	"part-interactive-rebase-and-friends.tpp",
 # STASH
 # useful
 #
