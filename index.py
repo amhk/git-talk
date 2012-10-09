@@ -134,6 +134,7 @@ part1 = [
 	"githooks.tpp",
 	"gitrevisions.tpp",
 	"gitrevisions-ranges.tpp",
+	"gitrevisions-demo.tpp",
 	"git-tag.tpp",
 #
 # REFLOG

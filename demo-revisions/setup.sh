@@ -2,11 +2,11 @@
 # Construct the following revision graph and print different ranges.
 # Examples taken from the gitrevisions(7) man page.
 #
-#     root
-#   / |  \ \
-#  /  |   |  \
-# G   H   I   J
-#  \ /     \ /
+#    r o o t
+#   / / | \ \
+#  /  | | |  \
+# G   H | I   J
+#  \ /  |  \ /
 #   D   E   F
 #    \  |  / \
 #     \ | /   |
@@ -96,5 +96,7 @@ git log --format="%s" --graph
 
 print_range "D"
 print_range "D F"
+print_range "B ^F"
+print_range "F..B"
 print_range "B...C"
 print_range "^D B C"
