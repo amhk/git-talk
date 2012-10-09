@@ -137,10 +137,7 @@ part1 = [
 	"gitrevisions-demo.tpp",
 	"git-tag.tpp",
 	"git-reflog.tpp",
-#
-# FIND COMMITS
-# git log --author=... --no-merges (other filters)
-# git branch --contains
+	"trick-find-commits.tpp",
 #
 # -- REBASE AND FRIENDS = 30 min
 #
