@@ -136,11 +136,7 @@ part1 = [
 	"gitrevisions-ranges.tpp",
 	"gitrevisions-demo.tpp",
 	"git-tag.tpp",
-#
-# REFLOG
-# logs visited refs
-# save for when explaining .git/objects,
-# to show how old copies still exists until git-gc?
+	"git-reflog.tpp",
 #
 # FIND COMMITS
 # git log --author=... --no-merges (other filters)
