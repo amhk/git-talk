@@ -189,6 +189,7 @@ part1 = [
 	"git-bisect-demo.tpp",
 #
 # -- INTERNAL REPRESENTATION = 15 min
+	"part-git-internals.tpp",
 # fsck
 # gc
 # visualize-git.sh
