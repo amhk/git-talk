@@ -194,10 +194,7 @@ part1 = [
 # clean -fxd
 # git reset --hard
 #
-# BLAME
-# how to display which commit introduced a line (git alias?)
-# -Lx,+n
-#
+	"git-blame.tpp",
 	"git-bisect.tpp",
 	"git-bisect-demo.tpp",
 #
