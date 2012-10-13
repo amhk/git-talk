@@ -158,6 +158,7 @@ part1 = [
 # display file 'path' as it were at commit 'commitish'
 #
 # -- MORE PATCHES = 10 min
+	"part-patches-explained.tpp",
 #
 # AUTHOR VS COMITTER
 # git show --format=fuller on a commit
