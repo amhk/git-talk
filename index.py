@@ -143,9 +143,7 @@ part1 = [
 #
 	"part-interactive-rebase-and-friends.tpp",
 	"git-stash.tpp",
-#
-# MERGE --SQUASH
-# run merge --squash
+	"git-merge-squash.tpp",
 #
 # WORKFLOW: dev branch
 # on dev branch:
