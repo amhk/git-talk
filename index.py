@@ -157,8 +157,12 @@ part1 = [
 # git revert debug-prints
 # COST OF LOCAL==PRIVATE COMMIT: virtually none: commit often
 #
-# REBASE INTERACTIVE
-# used to: reorder, split, squash
+	"git-rebase-interactive.tpp",
+	"git-rebase-interactive-amend.tpp",
+	"git-rebase-interactive-reorder.tpp",
+	"git-rebase-interactive-delete.tpp",
+	"git-rebase-interactive-squash.tpp",
+	"git-rebase-interactive-split.tpp",
 #
 # ADD INTERACTIVE
 # used to add a subset of a modified file
