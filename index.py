@@ -35,6 +35,7 @@ part1 = [
 	# still don't explain what's happening
 
 	# LOG
+	"git-log.tpp",
 	# git log
 	# git log -p
 	# git log --graph ? "there are GUIs..."
