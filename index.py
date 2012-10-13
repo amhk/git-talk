@@ -24,6 +24,7 @@ part1 = [
 	# man git-cmd
 
 	# ADD
+	"git-add.tpp",
 	# fortune >> foo.txt && git add foo.txt
 	# don't explain in detail what's happening, not yet
 
