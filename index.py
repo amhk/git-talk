@@ -169,9 +169,7 @@ part1 = [
 #
 # -- MORE PATCHES = 10 min
 	"part-patches-explained.tpp",
-#
-# AUTHOR VS COMITTER
-# git show --format=fuller on a commit
+	"patch-vs-commit.tpp",
 #
 # CHERRY-PICK
 # use git cherry-pick -x
