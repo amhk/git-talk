@@ -66,11 +66,12 @@ part1 = [
 	"git-show.tpp",
 	# git show <any commit>
 	#
-# WHAT'S A PATCH
-# Inspect git show output.
-# Explain hunk header, that it's all text, old well-known format not intrinsict to git.
-# Possible to store a patch as a plain text file!
-#
+	# WHAT'S A PATCH
+	"patch.tpp",
+	# Inspect git show output.
+	# Explain hunk header, that it's all text, old well-known format not intrinsict to git.
+	# Possible to store a patch as a plain text file!
+	#
 # BRANCH
 # git branch b && git checkout b
 # git checkout -b b
