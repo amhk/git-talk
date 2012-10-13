@@ -144,17 +144,7 @@ part1 = [
 	"part-interactive-rebase-and-friends.tpp",
 	"git-stash.tpp",
 	"git-merge-squash.tpp",
-#
-# WORKFLOW: dev branch
-# on dev branch:
-# commit debug-prints
-# commit work1
-# commit work2
-# ...
-# commit work3
-# git revert debug-prints
-# COST OF LOCAL==PRIVATE COMMIT: virtually none: commit often
-#
+	"trick-topic-branches.tpp",
 	"git-rebase-interactive.tpp",
 	"git-rebase-interactive-amend.tpp",
 	"git-rebase-interactive-reorder.tpp",
