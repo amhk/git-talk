@@ -48,6 +48,7 @@ part1 = [
 # -- BRANCHES AND MERGES 30-45 min
 #
 # STATUS
+	"git-status.tpp",
 # status
 # status -s
 #
