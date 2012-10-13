@@ -62,9 +62,10 @@ part1 = [
 	"git-mv-rm.tpp",
 	# use them
 	#
-# SHOW
-# git show <any commit>
-#
+	# SHOW
+	"git-show.tpp",
+	# git show <any commit>
+	#
 # WHAT'S A PATCH
 # Inspect git show output.
 # Explain hunk header, that it's all text, old well-known format not intrinsict to git.
