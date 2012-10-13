@@ -45,18 +45,19 @@ part1 = [
 	# [working directory] ---- [index] ---- [.git version]
 	# "animated" image: git add move to index, git commit move to .git
 
-# -- BRANCHES AND MERGES 30-45 min
-#
-# STATUS
+	# -- BRANCHES AND MERGES 30-45 min
+	#
+	# STATUS
 	"git-status.tpp",
-# status
-# status -s
-#
-# DIFF
-# show work in progress: git diff && git diff --cached
-# also show diff between range of commits: git diff HEAD~5..HEAD
-# also, diff --stat, diff --word-diff
-#
+	# status
+	# status -s
+	#
+	# DIFF
+	"git-diff.tpp",
+	# show work in progress: git diff && git diff --cached
+	# also show diff between range of commits: git diff HEAD~5..HEAD
+	# also, diff --stat, diff --word-diff
+	#
 # MV/RM
 # use them
 #
