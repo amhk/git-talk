@@ -170,6 +170,7 @@ part1 = [
 # -- MORE PATCHES = 10 min
 	"part-patches-explained.tpp",
 	"patch-vs-commit.tpp",
+	"git-apply.tpp",
 #
 # CHERRY-PICK
 # use git cherry-pick -x
