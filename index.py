@@ -19,6 +19,7 @@ part1 = [
 	# git clone <url> <dir>
 
 	# HELP/MAN
+	"git-help-man.tpp",
 	# git help cmd
 	# man git-cmd
 
