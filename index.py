@@ -171,13 +171,10 @@ part1 = [
 	"part-patches-explained.tpp",
 	"patch-vs-commit.tpp",
 	"git-apply.tpp",
+	"git-format-patch.tpp",
 #
 # CHERRY-PICK
 # use git cherry-pick -x
-#
-# FORMAT-PATCH, AM
-# git format-patch && mail someone && git am
-# this is how patches are submitted to the kernel
 #
 # APPLY
 # apply raw patch
