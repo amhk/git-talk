@@ -58,9 +58,10 @@ part1 = [
 	# also show diff between range of commits: git diff HEAD~5..HEAD
 	# also, diff --stat, diff --word-diff
 	#
-# MV/RM
-# use them
-#
+	# MV/RM
+	"git-mv-rm.tpp",
+	# use them
+	#
 # SHOW
 # git show <any commit>
 #
