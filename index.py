@@ -173,7 +173,8 @@ part1 = [
 # APPLY
 # apply raw patch
 #
-# -- FOO = 15 min
+# -- MISCELLANEOUS = 30 min
+	"part-miscellaneous.tpp",
 #
 # RESET AND CHECKOUT
 # to reset files in working directory
@@ -187,17 +188,12 @@ part1 = [
 	"git-bisect.tpp",
 	"git-bisect-demo.tpp",
 #
-#
-# -- MISC
-#
-# init --bare
-# remove object from history: filter-branch, won't work if published
-#
-#
 # -- INTERNAL REPRESENTATION = 15 min
 # fsck
 # gc
 # visualize-git.sh
+# init --bare
+# remove object from history: filter-branch, won't work if published
 #
 # SECURITY/ATOMICITY
 # git tag vs git tag -a (save for later)
