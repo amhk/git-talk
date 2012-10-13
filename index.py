@@ -68,6 +68,7 @@ part1 = [
 	#
 	# WHAT'S A PATCH
 	"patch.tpp",
+	"patch-hunk.tpp",
 	# Inspect git show output.
 	# Explain hunk header, that it's all text, old well-known format not intrinsict to git.
 	# Possible to store a patch as a plain text file!
