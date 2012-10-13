@@ -163,9 +163,7 @@ part1 = [
 	"git-rebase-interactive-delete.tpp",
 	"git-rebase-interactive-squash.tpp",
 	"git-rebase-interactive-split.tpp",
-#
-# ADD INTERACTIVE
-# used to add a subset of a modified file
+	"git-add-interactive.tpp",
 #
 # RERERRE
 # also used by rebase
