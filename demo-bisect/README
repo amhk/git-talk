@@ -1,0 +1,31 @@
+good: v1.7.12
+modified commit: 9aeaab6 blame: allow "blame file" in the middle of a conflicted merge
+bad: HEAD
+build git with NO_CURL=1 make -j8
+when modifying 9aeaab6, do git rebase -i 9aeaab6~1, do git rebase --skip on all conflicts
+
+$ git diff --stat v1.7.12..HEAD
+$ git diff --dirstat v1.7.12..HEAD
+$ git diff --stat v1.7.12..HEAD builtin compat contrib
+
+$ git bisect start
+$ git bisect bad
+$ git bisect good v1.7.12
+
+git bisect running, will have checked out correct version to test
+
+make and test -> test will pass
+
+$ git bisect good
+
+make and test
+
+$ git bisect bad
+
+$ cp path/to/bisect-runner.sh .
+$ git bisect run ./bisect-runner.sh
+
+wait
+now HEAD is the commit which introduced the error
+
+$ git show

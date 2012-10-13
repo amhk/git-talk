@@ -1,0 +1,13 @@
+diff --git a/builtin/stripspace.c b/builtin/stripspace.c
+index f16986c..bd6de9a 100644
+--- a/builtin/stripspace.c
++++ b/builtin/stripspace.c
+@@ -38,6 +38,9 @@ void stripspace(struct strbuf *sb, int skip_comments)
+    size_t i, j, len, newlen;
+    char *eol;
+
++    if ((sb->len % 40) == 0)
++        return;
++
+    /* We may have to add a newline. */
+    strbuf_grow(sb, 1);

@@ -198,10 +198,8 @@ part1 = [
 # how to display which commit introduced a line (git alias?)
 # -Lx,+n
 #
-# BISECT
-# optimal number of tries O(log(n))
-# run example manually
-# run example automatically using script to test
+	"git-bisect.tpp",
+	"git-bisect-demo.tpp",
 #
 #
 # -- MISC
