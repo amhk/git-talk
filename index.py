@@ -164,9 +164,7 @@ part1 = [
 	"git-rebase-interactive-squash.tpp",
 	"git-rebase-interactive-split.tpp",
 	"git-add-interactive.tpp",
-#
-# RERERRE
-# also used by rebase
+	"git-rerere.tpp",
 #
 # SHOW commitish:path
 # display file 'path' as it were at commit 'commitish'
