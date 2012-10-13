@@ -173,9 +173,7 @@ part1 = [
 	"git-apply.tpp",
 	"git-format-patch.tpp",
 	"git-am.tpp",
-#
-# CHERRY-PICK
-# use git cherry-pick -x
+	"git-cherry-pick.tpp",
 #
 # -- MISCELLANEOUS = 30 min
 	"part-miscellaneous.tpp",
