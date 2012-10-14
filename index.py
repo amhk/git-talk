@@ -88,10 +88,11 @@ part1 = [
 	"git-branch-no-branch.tpp",
 	# possible to git checkout <sha1> -> will get no branch state
 	#
-# MERGE
-# git branch # -> standing on master
-# git merge dev # -> merge branch dev into master
-#
+	# MERGE
+	"git-merge.tpp",
+	# git branch # -> standing on master
+	# git merge dev # -> merge branch dev into master
+	#
 # MERGE, CONFLICT
 # set up brances with conflicting changes
 # git merge -> get conflict
