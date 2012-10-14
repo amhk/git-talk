@@ -141,9 +141,10 @@ part1 = [
 	"git-protocols.tpp",
 	# git, ssh, http, https
 	#
-# BRACHES, TRACKING
-# git branch -t
-#
+	# BRACHES, TRACKING
+	"git-branch-tracking.tpp",
+	# git branch -t
+	#
 # REBASE
 # (plain rebase, not interactive)
 # run example
