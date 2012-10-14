@@ -115,13 +115,15 @@ part1 = [
 	# --no-commit, --ff-only, etc
 	#
 # -- COMMUNICATING WITH THE REST OF THE WORLD = 15 min
-#
-# REMOTE
-# explain how to set up list of remote branches
-# add
-# rename
-# -v
-#
+	"part-communicating.tpp",
+	#
+	# REMOTE
+	"git-remote.tpp",
+	# explain how to set up list of remote branches
+	# add
+	# rename
+	# -v
+	#
 # FETCH, PULL
 # git clone revisited, implicit origin remote
 # git fetch -> download commits to FETCH_HEAD
