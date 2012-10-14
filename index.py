@@ -93,15 +93,16 @@ part1 = [
 	# git branch # -> standing on master
 	# git merge dev # -> merge branch dev into master
 	#
-# MERGE, CONFLICT
-# set up brances with conflicting changes
-# git merge -> get conflict
-# git status
-# display <<<< ==== >>>> markers
-# manually resolve
-# git add to mark file as resolved
-# git commit to finish merge
-#
+	# MERGE, CONFLICT
+	"git-merge-demo.tpp",
+	# set up brances with conflicting changes
+	# git merge -> get conflict
+	# git status
+	# display <<<< ==== >>>> markers
+	# manually resolve
+	# git add to mark file as resolved
+	# git commit to finish merge
+	#
 # MERGETOOL
 # just mention mergetool, difftool
 #
