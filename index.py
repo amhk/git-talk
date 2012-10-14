@@ -103,10 +103,11 @@ part1 = [
 	# git add to mark file as resolved
 	# git commit to finish merge
 	#
-# MERGETOOL
-# just mention mergetool, difftool
-#
-#
+	# MERGETOOL
+	"git-merge-tools.tpp",
+	# just mention mergetool, difftool
+	#
+	#
 # MERGE, FAST FORWARD
 # merge by default creates a merge commit
 # fast-forward: dest branch not changed
