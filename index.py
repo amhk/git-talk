@@ -73,11 +73,12 @@ part1 = [
 	# Explain hunk header, that it's all text, old well-known format not intrinsict to git.
 	# Possible to store a patch as a plain text file!
 	#
-# BRANCH
-# git branch b && git checkout b
-# git checkout -b b
-# # checkout is a Swizz army knife, used for anything...
-#
+	# BRANCH
+	"git-branch.tpp",
+	# git branch b && git checkout b
+	# git checkout -b b
+	# # checkout is a Swizz army knife, used for anything...
+	#
 # BRANCH, CONT
 # add commits on branch, run log
 # switch branch to master, add commits, run log
