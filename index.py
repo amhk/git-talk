@@ -79,10 +79,11 @@ part1 = [
 	# git checkout -b b
 	# # checkout is a Swizz army knife, used for anything...
 	#
-# BRANCH, CONT
-# add commits on branch, run log
-# switch branch to master, add commits, run log
-#
+	# BRANCH, CONT
+	"git-branch-demo.tpp",
+	# add commits on branch, run log
+	# switch branch to master, add commits, run log
+	#
 # BRANCH, NO BRANCH
 # possible to git checkout <sha1> -> will get no branch state
 #
