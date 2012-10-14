@@ -124,9 +124,10 @@ part1 = [
 	# rename
 	# -v
 	#
-# FETCH, PULL
-# git clone revisited, implicit origin remote
-# git fetch -> download commits to FETCH_HEAD
+	# FETCH, PULL
+	"git-fetch.tpp",
+	# git clone revisited, implicit origin remote
+	# git fetch -> download commits to FETCH_HEAD
 # git pull -> git fetch and merge
 #
 # PUSH
