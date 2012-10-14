@@ -137,9 +137,10 @@ part1 = [
 	# either successeds, or makes you do conflict resolution locally
 	# requires write permission
 	#
-# GIT PROTOCOLS
-# git, ssh, http, https
-#
+	# GIT PROTOCOLS
+	"git-protocols.tpp",
+	# git, ssh, http, https
+	#
 # BRACHES, TRACKING
 # git branch -t
 #
