@@ -131,11 +131,12 @@ part1 = [
 	"git-pull.tpp",
 	# git pull -> git fetch and merge
 	#
-# PUSH
-# upload changes
-# either successeds, or makes you do conflict resolution locally
-# requires write permission
-#
+	# PUSH
+	"git-push.tpp",
+	# upload changes
+	# either successeds, or makes you do conflict resolution locally
+	# requires write permission
+	#
 # GIT PROTOCOLS
 # git, ssh, http, https
 #
