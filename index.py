@@ -145,10 +145,11 @@ part1 = [
 	"git-branch-tracking.tpp",
 	# git branch -t
 	#
-# REBASE
-# (plain rebase, not interactive)
-# run example
-#
+	# REBASE
+	"git-rebase.tpp",
+	# (plain rebase, not interactive)
+	# run example
+	#
 # -- FLUID WORKFLOW (Kongstad from here and below) = 30-45 min
 #
 	"part-fluid-workflow.tpp",
