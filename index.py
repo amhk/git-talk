@@ -108,11 +108,12 @@ part1 = [
 	# just mention mergetool, difftool
 	#
 	#
-# MERGE, FAST FORWARD
-# merge by default creates a merge commit
-# fast-forward: dest branch not changed
-# --no-commit, --ff-only, etc
-#
+	# MERGE, FAST FORWARD
+	"git-merge-fast-forward.tpp",
+	# merge by default creates a merge commit
+	# fast-forward: dest branch not changed
+	# --no-commit, --ff-only, etc
+	#
 # -- COMMUNICATING WITH THE REST OF THE WORLD = 15 min
 #
 # REMOTE
