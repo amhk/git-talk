@@ -128,8 +128,9 @@ part1 = [
 	"git-fetch.tpp",
 	# git clone revisited, implicit origin remote
 	# git fetch -> download commits to FETCH_HEAD
-# git pull -> git fetch and merge
-#
+	"git-pull.tpp",
+	# git pull -> git fetch and merge
+	#
 # PUSH
 # upload changes
 # either successeds, or makes you do conflict resolution locally
