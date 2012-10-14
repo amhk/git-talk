@@ -84,9 +84,10 @@ part1 = [
 	# add commits on branch, run log
 	# switch branch to master, add commits, run log
 	#
-# BRANCH, NO BRANCH
-# possible to git checkout <sha1> -> will get no branch state
-#
+	# BRANCH, NO BRANCH
+	"git-branch-no-branch.tpp",
+	# possible to git checkout <sha1> -> will get no branch state
+	#
 # MERGE
 # git branch # -> standing on master
 # git merge dev # -> merge branch dev into master
