@@ -204,10 +204,7 @@ part1 = [
 	"part-git-internals.tpp",
 	"gitrepository-layout.tpp",
 	"git-gc-fsck.tpp",
-# remove object from history: filter-branch, won't work if published
-#
-# SECURITY/ATOMICITY
-# git tag vs git tag -a (save for later)
+	"trick-security-atomicity.tpp",
 ]
 
 files = ["head.tex", "cover.tpp"] + part1 + ["foot.tex"]
