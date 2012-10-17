@@ -192,9 +192,9 @@ part1 = [
 #
 # -- MISCELLANEOUS = 30 min
 	"part-miscellaneous.tpp",
-#
-# RESET AND CHECKOUT
-# to reset files in working directory
+	"git-reset.tpp",
+	"git-reset-soft-mixed-hard.tpp",
+	"git-reset-examples.tpp",
 #
 # CLEAN
 # clean -n
