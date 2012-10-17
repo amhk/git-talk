@@ -1,0 +1,48 @@
+tree -L 1 .git
+
+cat .git/HEAD
+tree .git/refs
+cat .git/refs/heads/master
+
+tree .git/objects
+
+commit=$(git log -1 --format="%h")
+ls .git/objects/XX/YYYY*
+git cat-file -t $commit	# type == commit
+git cat-file -p $commit	# note: parent(s), tree
+
+tree=...
+ls .git/objects/XX/YYYY*
+git cat-file -t $tree	# tree, which we already knew
+git cat-file -p $tree
+# list of trees and blobs, with permissions
+
+file=...
+git cat-file -t $file	# blob, which we already knew
+git cat-file -p $file	# file's contents as it was at commit $commit
+
+mkdir /tmp/a
+cp demo-repository-layout/* /tmp/a
+cd /tmp/a
+git init
+python viewer.py
+
+fortune > a.txt
+git add a.txt
+git commit
+
+fortune > a.txt
+fortune > a.txt # note: two blobs
+git add a.txt
+git commit  # note: dangling blob
+
+git gc --prune=today    # note: pack file, dangling blob removed
+
+fortune > a.txt
+fortune > b.txt
+git add a.txt b.txt
+git commit
+
+fortune > a.txt
+git add a.txt
+git commit  # note: new commit's tree's blob for b.txt is reused
