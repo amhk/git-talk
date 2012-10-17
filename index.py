@@ -195,12 +195,7 @@ part1 = [
 	"git-reset.tpp",
 	"git-reset-soft-mixed-hard.tpp",
 	"git-reset-examples.tpp",
-#
-# CLEAN
-# clean -n
-# clean -fxd
-# git reset --hard
-#
+	"git-clean.tpp",
 	"git-blame.tpp",
 	"git-bisect.tpp",
 	"git-bisect-demo.tpp",
