@@ -203,8 +203,7 @@ part1 = [
 # -- INTERNAL REPRESENTATION = 15 min
 	"part-git-internals.tpp",
 	"gitrepository-layout.tpp",
-# fsck
-# gc
+	"git-gc-fsck.tpp",
 # remove object from history: filter-branch, won't work if published
 #
 # SECURITY/ATOMICITY
