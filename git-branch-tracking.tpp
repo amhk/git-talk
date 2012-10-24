@@ -6,6 +6,8 @@ item Make git automatically follow the branch based on where you started from
 
 item Enable tracking of branches on an existing local branch
 	ite2
+		code git branch [-u|--set-upstream-to]
+	ite2 Deprecated since 1.8.0
 		code git branch --set-upstream <local> <remote>
 
 item Using checkout
