@@ -31,6 +31,7 @@ part1 = [
 	# COMMIT
 	# git commit
 	"git-commit.tpp",
+	"git-commit-message.tpp",
 	# manually write commit msg in EDITOR
 	# still don't explain what's happening
 
