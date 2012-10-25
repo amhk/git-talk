@@ -1,5 +1,7 @@
 titl git-init(1)
 
+syno git init
+
 item Create a directory, and initialize a Git repository
 ite2
 code mkdir my_project

@@ -10,4 +10,4 @@ item Switch/go to another branch
 item Create e new branch using git checkout
 	ite2
 		code git checkout -b <branchname>
-item git checkout is like a Swizz army knife, create branch, select branch, undo changes ...
+item git checkout is like a Swizz army knife, create branch, select branch, undo changes \ldots

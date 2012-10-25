@@ -1,5 +1,7 @@
 titl git-commit(1)
 
+syno git commit [-m msg]
+
 text The command that actually writes data into the git repository
 
 item Commit what has previously been added

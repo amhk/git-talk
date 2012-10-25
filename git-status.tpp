@@ -1,5 +1,7 @@
 titl git-status(1)
 
+syno git status
+
 text Used to check the current status of the files in your directory
 
 item
@@ -13,5 +15,5 @@ item Different types you will see
 		code deleted
 	ite2
 		code renamed
-	ite2 etc ..
+	ite2 etc, \ldots
 item Untracked files (??)

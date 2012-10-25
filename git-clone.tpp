@@ -1,6 +1,8 @@
 titl git-clone(1)
 
-item Clone (copy, replicate) a project from somewhere else (locally, internet ...)
+syno git clone url
+
+item Clone (copy, replicate) a project from somewhere else (locally, internet, \ldots)
 ite2
 code git clone <url>
 ite2

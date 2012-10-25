@@ -1,5 +1,7 @@
 titl git-remote(1)
 
+syno git remote [add url]
+
 text So far we have (almost) only been doing things locally. Lets talk to the rest of the world!
 
 item List remotes

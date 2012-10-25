@@ -1,5 +1,7 @@
 titl git-add(1)
 
+syno git add path
+
 item Bring untracked files into git repository
 item Add already tracked files into git repository (staging)
 item

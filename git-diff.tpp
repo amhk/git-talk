@@ -1,5 +1,7 @@
 titl git-diff(1)
 
+syno git diff
+
 text Show changes in the code
 item
 	code git diff

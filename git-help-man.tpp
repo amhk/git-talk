@@ -1,5 +1,7 @@
 titl git-help(1), man pages
 
+syno git help cmd, man cmd
+
 text Where to get help?
 
 text git binary help
