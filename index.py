@@ -43,6 +43,7 @@ part1 = [
 	# re-do add, commit, log to add one more commit
 
 	# THE BIG PICTURE
+	"the-three-trees.tpp",
 	# [working directory] ---- [index] ---- [.git version]
 	# "animated" image: git add move to index, git commit move to .git
 
