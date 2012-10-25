@@ -1,8 +1,6 @@
 titl git-diff(1)
 
-syno git diff
-
-text Show changes in the code
+text Show changes in the code:
 item
 	code git diff
 item
@@ -17,3 +15,7 @@ item
 	code git diff HEAD~3..HEAD
 item
 	code git diff commitid
+
+text Check for whitespace errors:
+item
+	code git diff --check
